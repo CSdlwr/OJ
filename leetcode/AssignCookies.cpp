@@ -1,8 +1,12 @@
+// Copyright [2016] <luming.lv>
+
 #include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
-using namespace std;
+
+using std::vector;
+using std::string;
 
 int findContentChildren(vector<int>& g, vector<int>& s) {
   int ans = 0;
@@ -28,4 +32,3 @@ int findContentChildren(vector<int>& g, vector<int>& s) {
 int main() {
   return 0;
 }
-
